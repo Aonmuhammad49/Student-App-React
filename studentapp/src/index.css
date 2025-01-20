@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-color: rgb(48, 47, 47);
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 44%;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.Student-Box {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(80, 79, 79);
+  display: flex;
+  margin-top: 15px;
+  margin-left: 25%;
+  padding: 15px 10px;
+}
+
+.Student-Box label {
+  color: white;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.Student-Box input {
+  height: 25px;
+  border-radius: 7px;
+  border: 1px solid orange;
+}
+
+.AddTodo {
+  margin-left: 150px;
+}
+.Add, .Update {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 35px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background-color: orange;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.Add:hover, .Update:hover {
+  background-color: darkorange;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 140, 0, 0.7);
+  border-color: darkorange;
+}
+
+.Student-Box-Data {
+  width: 50%;
+  height: 75px;
+  background-color: rgb(80, 79, 79);
+  display: flex;
+  margin-top: 15px;
+  margin-left: 25%;
+  padding: 0px 10px;
+}
+
+.StudentData {
+  width: 50%;
+  height: 75px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.EditDelete {
+  width: 50%;
+  height: 75px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.Heading {
+  color: orange !important;
+  font-size: 35px;
+  display: inline-block;
+  font-family: Arial;
+  font-weight: 500;
+  margin: 5px 10px;
+}
+
+.Paragraph {
+  color: white !important;
+  font-family: Arial;
+  font-size: 15px;
+  display: block;
+  margin: 0px 10px;
+}
+
+.EditDelete {
+  width: 50%;
+  height: 75px;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.Compelete {
+  padding: 10px 20px;
+  border: 2px solid rgba(45, 225, 84, 0.674);
+  border-radius: 25px;
+  font-size: 15px;
+  color: rgba(45, 225, 84, 0.674);
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Compelete:hover {
+  background-color: rgba(45, 225, 84, 0.9);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(45, 225, 84, 0.7);
+  border-color: rgba(45, 225, 84, 0.9); 
+}
+
+.Delete {
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 25px;
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.Delete:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 0, 0, 0.7);
+  border-color: red;
+}
